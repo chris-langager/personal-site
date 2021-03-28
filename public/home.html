@@ -1,0 +1,10 @@
+{{define "content"}}
+<h1>home page</h1>
+<ul>
+    {{range $article := .Articles}}
+    <li>
+        <a href="/article/{{$article.Slug}}">{{$article.Title}}</a>
+    </li>
+    {{end}}
+</ul>
+{{end}}

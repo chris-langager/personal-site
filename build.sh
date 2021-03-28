@@ -1,0 +1,1 @@
+env GOOS=linux go build -o=ssr_linux main.go 

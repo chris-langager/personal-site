@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+
+  <title>Chris Langager</title>
+  <meta name="description" content="Something" />
+  <meta name="author" content="Chris Langager" />
+
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body>
+  <div class="navigation">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+  </div>
+
+  {{block "content" .}}
+  <!-- Fallback, if "content" is not defined elsewhere -->
+  {{end}}
+  <!-- <script src="js/scripts.js"></script> -->
+</body>
+
+</html>
